@@ -1,16 +1,55 @@
-# home_sense
+[FLUTTER__BADGE]: https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white
+[FIREBASE__BADGE]: https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white
 
-A new Flutter project.
+<h1 align="center" style="font-weight: bold;"> Home Sense 📱</h1>
 
-## Getting Started
+![flutter][FLUTTER__BADGE]
+![firebase][FIREBASE__BADGE]
 
-This project is a starting point for a Flutter application.
+<p align="left">
+ <a href="#about">Sobre</a> • 
+ <a href="#started">Instruções</a> • 
+ <a href="#colab">Colaboradores</a> 
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+Projeto desenvolvido como parte da disciplina de Desenvolvimento para Dispositivos Móveis do curso de Análise e Desenvolvimento de Sistemas da UFRN. O objetivo principal é demonstrar o uso do Flutter e Firebase para o desenvolvimento de aplicativos. O projeto faz uso do Realtime Database, Firebase Authentication e Firebase Messaging.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<h2 id="started">🚀 Intruções de uso</h2>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. No diretório do projeto, execute e siga as instruções no terminal:
+
+```bash
+npm install -g firebase-tools
+firebase login
+dart pub global activate flutterfire_cli
+```
+
+2. Adicione o flutterfire às variáveis de ambiente de sua máquina.
+
+3. Após ativar o firebase, execute:
+
+```bash
+flutterfire configure
+flutter pub get
+flutter run
+``` 
+
+3. Faça login ou cadastre-se.
+
+<h3>Clonando</h3>
+
+```bash
+git clone https://github.com/foioluan/Home_Sense.git
+```
+
+<h2 id="colab">🤝 Colaboradores</h2>
+
+<p align="left">
+  • <a href="https://github.com/foioluan">foioluan</a>
+  </br>
+  • <a href="https://github.com/im-fernanda">im-fernanda</a>
+  </br>
+  • <a href="https://github.com/Paulo-Abrantes">Paulo-Abrantes</a>
+  </br>
+  • <a href="https://github.com/andrelGermano">andrelGermano</a>
+</p>
